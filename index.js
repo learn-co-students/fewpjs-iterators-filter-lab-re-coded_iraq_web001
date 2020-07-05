@@ -1,1 +1,1 @@
-// Code your solution here
+function findMatching(d, n){  return d.filter(driver => {    return driver.toLowerCase() === n.toLowerCase();  });  }function fuzzyMatch(d, n){  return d.filter(driver => driver.startsWith(n));}function matchName(d, n){  return d.filter(driver => driver.name === n);}
